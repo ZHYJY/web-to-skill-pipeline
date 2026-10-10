@@ -147,8 +147,8 @@ version: "1.0.0"
 
 | 规则 | 说明 |
 |---|---|
-| 用**能力**命名 | `behavioral-finance-top-journal` 而非 `cao-pipeline` |
-| 方法确由某人定义时**可带出处** | 如 `finance-top-journal-cao-pipeline`，但须在 ATTRIBUTION 写清 |
+| 用**能力**命名 | `behavioral-finance-top-journal` 而非 `person-pipeline` |
+| 方法确由某人定义时**可带出处** | 如 `method-top-journal-<出处>`，但须在 ATTRIBUTION 写清 |
 | 小写 + 连字符 | 无括号、无空格、无特殊字符 |
 | 避免与既有 skill 高度重合 | 加载列表会变得难扫 |
 | 名字与 description 呼应 | 看到名字能猜出大致用途 |

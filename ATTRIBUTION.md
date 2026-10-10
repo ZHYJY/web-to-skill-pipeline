@@ -2,8 +2,9 @@
 
 ## 方法来源
 
-本 skill 的流程结构提炼自一次真实工作流的复盘：从两个公开网页（一位学者的机构主页与
-Google Scholar 个人主页）提炼其发表方法论，产出 `finance-top-journal-cao-pipeline` skill。
+本 skill 的流程结构提炼自一次真实工作流的复盘：从使用者指定的两个公开网页（官网/机构主页
+与 Google Scholar 个人主页）提炼方法论的过程。本包不内置任何具体网站或人物的示例，
+来源网页由使用者自行提供。
 
 那次实践中暴露出的六个具体故障，构成本 skill 的核心内容：
 
@@ -18,11 +19,9 @@ Google Scholar 个人主页）提炼其发表方法论，产出 `finance-top-jou
 
 ## 引用来源
 
-| 来源 | URL | 用途 | 抓取结果 |
-|---|---|---|---|
-| UMD Smith 教师页 | https://www.rhsmith.umd.edu/directory/sean-cao | 方法论原始素材 | ✅ 成功 |
-| 个人学术站 | https://sites.google.com/view/seancao/home | 论文清单补全 | ✅ 成功 |
-| Google Scholar | https://scholar.google.com/citations?user=vIECdakAAAAJ&hl=en | 论文元数据 | ⚠️ 抓取工具被拦截；标准 HTTP 客户端可拿到页面但论文列表为 JS 渲染，内容不可用 |
+具体来源网页由使用者自行提供（典型组合：一个官网/机构页面 + 一个 Google Scholar 个人主页）。
+本包不保留任何特定网站、特定人物或特定链接的示例；使用本工作流时，请在来源台账中
+登记实际使用的 URL 并如实记录抓取结果。
 
 ## 准确性边界
 
