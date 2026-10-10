@@ -1,0 +1,18 @@
+{
+  "name": "web-to-skill-pipeline",
+  "title": "网页取证 → 方法提炼 → Skill 落盘 工作流",
+  "version": "1.0.0",
+  "language": "zh-CN and en-US",
+  "entrypoint": "SKILL.md",
+  "description": "Turns user-supplied URLs, paper lists, scholar pages, or documentation sites into a reusable methodology skill. Covers evidence-chain building with fallback paths when sources are blocked, source reliability tiering, method extraction from a body of works, portability testing that separates method from the subject's resource conditions, local skill-directory convention discovery and de-duplication, and synthetic-data self-checks for executable artifacts.",
+  "license": "MIT",
+  "tags": [
+    "web research",
+    "evidence gathering",
+    "method extraction",
+    "skill authoring",
+    "workflow",
+    "source verification",
+    "portability"
+  ]
+}
